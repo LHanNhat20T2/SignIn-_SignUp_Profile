@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/layerEmailLG.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/layersingupboder.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/thirdlayer.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/thirdlayeraddress.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/thirdlayeremail.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/thirdlayergithub.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable-v24/thirdlayerphone.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable/anhthe_boder.xml" value="0.256" />
+        <entry key="..\:/Profile/app/src/main/res/drawable/anhthe_circle.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable/layeremaillg.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable/layerlg.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable/layerlogin.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/drawable/secondlayer.xml" value="0.241" />
+        <entry key="..\:/Profile/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Profile/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Profile/app/src/main/res/layout/activity_singup.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
