@@ -15,12 +15,12 @@
     <string name="txtpwlogin">*****************</string>
     <string name="login">LOGIN</string>
     <string name="wellcome">Well come back</string>
-    <string name="btnlogin">SING IN</string>
+    <string name="btnlogin">SIGN IN</string>
     <string name="testview">Don\'t have an account?</string>
     <string name="cbremember">Remember me</string>
     <string name="recoverpw">Forgot password?</string>
     <string name="txtAcc">Create Account</string>
-    <string name="txtSingup">Sing Up</string>
+    <string name="txtSignup">Sign Up</string>
     <string name="txtFirstName">Fisrt Name</string>
     <string name="txtLastName">Last Name</string>
     <string name="txtEmailSU">Email</string>
