@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/img_bgd"
     tools:context=".MainActivity">
-
+    <!--        header  -->
     <RelativeLayout
         android:id="@+id/headerlg"
         android:layout_width="match_parent"
@@ -15,25 +15,24 @@
             android:id="@+id/txtWell"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/wellcome"
-            android:textSize="35sp"
             android:layout_centerInParent="true"
+            android:text="@string/wellcome"
             android:textAllCaps="true"
             android:textColor="#1C0606"
-             />
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/txtlogin1"
-            android:layout_margin="30dp"
-            android:layout_below="@+id/txtWell"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWell"
             android:layout_centerInParent="true"
+            android:layout_margin="30dp"
             android:text="@string/login"
             android:textColor="#1C0606"
             android:textSize="40sp" />
     </RelativeLayout>
-
+    <!--    body -->
     <RelativeLayout
         android:id="@+id/bodylg"
         android:layout_width="match_parent"
@@ -45,25 +44,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:orientation="vertical"
-            >
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginBottom="30dp"
-                android:drawablePadding="12dp"
-                android:padding="12dp"
-                android:background="@drawable/layerlg"
-                android:ems="12"
-                android:hint="@string/txtuserlogin"
-                android:textSize="28sp"
-                android:drawableLeft="@drawable/ic_email"
-                android:textColorHint="#4F94CD"
-/>
+            android:orientation="vertical">
 
             <EditText
+                android:id="@+id/edittextUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/layerlg"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="12dp"
+                android:ems="12"
+                android:hint="@string/txtuserlogin"
+                android:padding="12dp"
+                android:textColorHint="#4F94CD"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/edittextPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -75,10 +75,11 @@
                 android:hint="@string/txtpwlogin"
                 android:inputType="textPassword"
                 android:padding="12dp"
-                android:textSize="28sp"
-                android:textColorHint="#4F94CD"/>
+                android:textColorHint="#4F94CD"
+                android:textSize="28sp" />
         </LinearLayout>
     </RelativeLayout>
+    <!--    body sub-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -88,14 +89,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
+            <!--recover pass-->
             <CheckBox
+                android:id="@+id/checkboxRemember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/cbremember"
-                android:textSize="23sp"
                 android:layout_marginLeft="5dp"
-                android:textColor="#1167AA"/>
+                android:text="@string/cbremember"
+                android:textColor="#1167AA"
+                android:textSize="23sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -104,10 +106,11 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginRight="10dp"
                 android:text="@string/recoverpw"
-                android:textSize="20sp"
-                android:textColor="#1167AA"/>
-
+                android:textColor="#1167AA"
+                android:textSize="20sp" />
+            <!--  login   -->
             <Button
+                android:id="@+id/buttonLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="11dp"
@@ -117,16 +120,17 @@
                 android:padding="12dp"
                 android:text="@string/btnlogin"
                 android:textSize="27sp" />
-
+            <!--create account-->
             <TextView
+                android:id="@+id/textviewsignup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/testview"
-                android:textSize="25dp"
-                android:padding="8dp"
-                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#254981"/>
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:text="@string/testview"
+                android:textColor="#254981"
+                android:textSize="25dp" />
 
         </LinearLayout>
     </RelativeLayout>

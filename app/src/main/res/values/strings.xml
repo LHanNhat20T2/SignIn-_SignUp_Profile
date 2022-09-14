@@ -24,7 +24,9 @@
     <string name="txtFirstName">Fisrt Name</string>
     <string name="txtLastName">Last Name</string>
     <string name="txtEmailSU">Email</string>
-    <string name="txtPassW">Pass Word</string>
+    <string name="txtPassW">PassWord</string>
+    <string name="loginsucess">Đăng nhập thành công</string>
+    <string name="loginerror">Username hoặc Password sai !</string>
 
 
 

@@ -12,7 +12,7 @@
         android:id="@+id/head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00868B">
+        android:background="#E8CFB9">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/imgUser"
@@ -23,11 +23,11 @@
             app:cardCornerRadius="200dp">
 
             <ImageView
-                android:layout_width="109dp"
-                android:layout_height="126dp"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
                 android:layout_centerInParent="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/anhthe" />
+                android:src="@drawable/img_profile" />
         </androidx.cardview.widget.CardView>
         <!-- Name    -->
         <TextView
